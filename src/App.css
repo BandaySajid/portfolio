@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Russo One', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100vw;
+  background: linear-gradient(90deg, rgba(30,34,46,1) 0%, rgba(2,29,59,1) 52%, rgba(62,68,90,1) 100%);
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-li :hover {
+  color: #284062;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-item {
+  text-decoration: none;
+  font-size: 2rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+li {
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.social_icon {
+  color: #bbcadb;
+}
+
+.social_icon :hover {
+  color: #081E38;
+}
+
+.code-icon {
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+
+.code-col {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.sidebar {
+  width: 25%;
+  transition: all 0.2s ease-in-out;
+}
+
+/* @media only screen and (max-width: 1472px) {
+  .sidebar {
+    width: 30%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 1232px) {
+  .sidebar {
+    width: 35%;
   }
+} */
+
+/* for sidebar icon on mobiles */
+@media only screen and (max-width: 1060px) {
+  .sidebar {
+    width: 90%;
+    /* display: none; */
+  }
+
+  .main-section {
+    position: absolute;
+    z-index : 1
+  }
+
+  .sidebar {
+    transform: translateX(-100%);
+  }
+}
+
+.project-img {
+  min-height : 20rem;
+  max-height: 20rem;
+  object-fit : contain;
+}
+
+#sidebar-icon {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  z-index: 3;
+  margin: 1rem;
+  cursor: pointer
+}
+
+#sidebar-icon :hover {
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3E4459;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #979BB5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

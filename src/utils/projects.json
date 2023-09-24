@@ -1,0 +1,53 @@
+[
+    {
+        "url": "https://github.com/BandaySajid/aadhaar-js",
+        "fname": "aadhaar-js",
+        "lname": "nodejs library",
+        "description": "Aadhaar-JS is a NodeJS/JS library that allows developers to easily retrieve a user's Aadhaar data for authentication, KYC (Know Your Customer), and other purposes. The library provides a simple and secure way to access Aadhaar data. It is currently under development."
+    },
+    {
+        "url": "https://github.com/BandaySajid/chatgpt-node",
+        "description": "chatgpt-node is a Node.js library that provides access to the ChatGPT web-API for free. While ChatGPT provides an API to access its model, it is a paid service, making it inaccessible for everyone. The chatgpt-node library aims to bridge this gap by allowing developers to authenticate/login via web-api and start conversations with the ChatGPT model, enabling them to integrate chatbot functionality into their applications, websites, and more.",
+        "fname": "chatgpt-node",
+        "lname": "nodejs library"
+    },
+    {
+        "url": "https://github.com/BandaySajid/collaborator",
+        "fname": "collaborator",
+        "lname": "realtime code editor",
+        "description": "A code-collaborator where a user could invite other user to edit code in reatime."
+    },
+    {
+        "url": "https://github.com/BandaySajid/data-processing-ratelimiting",
+        "fname": "data-processing-ratelimiting",
+        "description": "processing large amounts of data by implementing node js streams and rate-limiting strategy."
+    },
+    {
+        "url": "https://github.com/BandaySajid/load-balancing-using-nginx",
+        "fname": "load-balancing-using-nginx",
+        "lname": "round robin implementation",
+        "description": "This project demonstrates load balancing using NGINX and implementation of the `Round Robin algorithm` for load balancing by utilizing a node js server."
+    },
+    {
+        "url": "https://github.com/BandaySajid/node-file-watcher",
+        "fname": "node-file-watcher",
+        "description": "A simple tool that watches a file and executes commands written in that file by a user."
+    },
+    {
+        "url": "https://github.com/BandaySajid/personal-portfolio",
+        "fname": "personal-portfolio",
+        "description": "My Personal Portfolio"
+    },
+    {
+        "url": "https://github.com/BandaySajid/scalable-chat-application",
+        "fname": "scalable-chat-app",
+        "lname": "realtime chat application",
+        "description": "This project is a demonstration of backend solution focused on efficient real-time chat communication and load balancing. Uses cutting-edge technologies such as WebSockets, Redis Pub/Sub, authentication, security measures, and caching."
+    },
+    {
+        "url": "https://github.com/BandaySajid/global-chat",
+        "fname": "global-chat",
+        "lname": "Chat Globally",
+        "description": "This application allows users to create accounts and chat with other global users anonymously. Users are not required to provide an email or password; they simply need to choose a username to get started. The application is built using React, Node.js, Express, and Websockets to facilitate real-time communication."
+    }
+]
