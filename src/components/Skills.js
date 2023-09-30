@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <div className="code-icons bg-success p-3" style={{ borderRadius: '10px', background: 'linear-gradient(90deg, rgba(30,34,46,1) 0%, rgba(28,49,71,1) 51%, rgba(62,68,90,1) 100%)', width: '95%' }}>
+        <div className="code-icons p-3" style={{ borderRadius: '10px', background: '#0D1117', width: '95%' }}>
             <h4 className='text-center text-white'>things I am good at</h4>
             <div className="col-12 code-col">
                 <i className="code-icon icon-nodejs" data-toggle="tooltip" data-placement="top" title="NodeJS" style={{ color: "#80bd01" }}></i>

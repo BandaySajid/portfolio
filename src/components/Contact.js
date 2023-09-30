@@ -4,9 +4,9 @@ const Contact = () => {
 
     return (
         <div className='w-100 p-3 ' style={{ display: 'flex', flexDirection: "column", alignItems: 'center', gap: '1rem' }}>
-            <span className='text-white'>Email: <a href="mailto: admin@sajidbanday.in" style={{ color: 'rgb(30,34,46)' }} target='_blank'>admin@sajidbanday.in</a></span>
+            <span className='text-white'>Email: <a href="mailto: admin@sajidbanday.in" style={{ color: 'orange' }} target='_blank'>admin@sajidbanday.in</a></span>
 
-            <div className="socials" style={{ display: 'flex', gap: '1rem', background: 'linear-gradient(90deg, rgba(30,34,46,1) 0%, rgba(28,49,71,1) 51%, rgba(62,68,90,1) 100%)', padding: "1rem", borderRadius: "10px" }}>
+            <div className="socials" style={{ display: 'flex', gap: '1rem', background: '#0D1117', padding: "1rem", borderRadius: "10px" }}>
 
                 <a className="social_icon" href="https://github.com/BandaySajid" id="github" target="_blank"><i
                     className="fa fa-github-square fa-3x"></i></a>
