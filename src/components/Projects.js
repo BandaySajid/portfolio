@@ -24,7 +24,7 @@ const Projects = () => {
                 {projects.map((project, i) => {
                     return <Carousel.Item key={i} style={{ padding: '2rem' }}>
                         <div className="card mb-3" style={{ background: '#0D1117' }}>
-                            <img src={`img/${project.fname}.png`} loading='lazy' onClick={handleImgClick} className="project-img card-img-top" alt="..." />
+                            <img src={`img/${project.fname.toLowerCase()}.png`} loading='lazy' onClick={handleImgClick} className="project-img card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title text-warning" style={{ color: '' }}>{project.lname ? `${project.fname} : ${project.lname}` : project.fname}</h5>
                                 <p className="card-text text-white" style={{ minHeight: '7rem', maxHeight: '7rem', overflow: 'auto' }}>{project.description}</p>
